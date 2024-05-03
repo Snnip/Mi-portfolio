@@ -33,7 +33,7 @@ const Home = () => {
           <p className="text-yellow-400 animate-fade-right animate-once animate-duration-[1500ms] text-7xl sm:text-9xl">
             Hey,
           </p>
-          <p className="animate-fade-right animate-once animate-duration-[1500ms] animate-delay-1000">
+          <p className="text-4xl sm:text-5xl md:text-7xl animate-fade-right animate-once animate-duration-[1500ms] animate-delay-1000">
             soy Sandra
           </p>
         </h2>
@@ -62,21 +62,21 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center px-4 absolute top-48 md:top-60 right-2 transform -translate-y-1/2 h-40 md:h-52 rounded-lg shadow-2xl">
-        <span className="flex flex-col items-center gap-4 md:gap-6">
+      <div className="flex justify-center items-center px-4 absolute top-48 md:top-60 right-2 transform -translate-y-1/2 h-32 sm:h-40 md:h-52 rounded-lg shadow-2xl bg-transparent">
+        <span className="flex flex-col items-center gap-2 sm:gap-4 md:gap-6">
           <a href="https://www.linkedin.com/in/sandra-polb/">
-            <FaLinkedin className="w-8 h-8 md:w-10 md:h-10" />
+            <FaLinkedin className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
           </a>
           <a href="https://github.com/Snnip">
-            <FaGithub className="w-8 h-8 md:w-10 md:h-10" />
+            <FaGithub className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
           </a>
 
           <button onClick={handleChangueTheme} className="text-blue-500 mt-6">
             {" "}
             {theme === "light" ? (
-              <MdOutlineDarkMode className="w-8 h-8 md:w-10 md:h-10" />
+              <MdOutlineDarkMode className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
             ) : (
-              <IoSunnyOutline className="w-8 h-8 md:w-10 md:h-10" />
+              <IoSunnyOutline className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
             )}
           </button>
         </span>
