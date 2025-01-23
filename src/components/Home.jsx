@@ -37,10 +37,8 @@ const Home = () => {
             soy Sandra
           </p>
         </h2>
-        <p className="text-base md:text-lg md:w-2/3 md:text-center animate-fade-right animate-once animate-duration-[1500ms] animate-delay-[2000ms] ">
-          Profesional SAP BTP junior, programadora web full stack junior y
-          técnico en cuidados auxiliares de enfermería, con más de cinco años de
-          experiencia en la sanidad.
+        <p className="text-base md:text-lg text-center animate-fade-right animate-once animate-duration-[1500ms] animate-delay-[2000ms] ">
+          Consultora SAP BTP junior en el equipo de integración en Avvale.
         </p>
 
         <div className="animate-flip-up animate-once animate-duration-[1500ms] animate-delay-[2500ms]">

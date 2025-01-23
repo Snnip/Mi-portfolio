@@ -30,9 +30,13 @@ const About = () => {
           </p>
           <br />
           <p>
-            Actualmente estoy en búsqueda de mi crecimiento profesional,
-            deseando encontrar una oportunidad que esté alineada a mis
-            conocimientos y experiencia en SAP.
+            Actualmente soy consultora SAP en el equipo de integración de
+            Avvale, donde participo activamente en proyectos, gestiono y
+            resuelvo incidencias, realizo la monitorización de sistemas, entre
+            otras tareas, siempre enfocada en optimizar procesos y garantizar el
+            funcionamiento eficiente de las soluciones implementadas. Mi enfoque
+            está siempre orientado al aprendizaje continuo y al crecimiento
+            profesional.
             <br />
             Te animo a que te pongas en {""}
             <a href="#contact">
@@ -49,22 +53,25 @@ const About = () => {
 
           <div className="flex flex-wrap gap-6">
             <div className="flex items-center justify-center text-white rounded-full  bg-slate-800 w-36 ">
-              HTML
+              SAP CI
             </div>
             <div className="flex items-center justify-center text-white rounded-full  bg-slate-800 w-36">
-              CSS
+              SAP PO
+            </div>
+            <div className="flex items-center justify-center text-white rounded-full  bg-slate-800 w-36 ">
+              SAP BTP Cockpit
             </div>
             <div className="flex items-center justify-center text-white rounded-full bg-slate-800 w-36 ">
+              HTML
+            </div>
+            <div className="flex items-center justify-center text-white rounded-full bg-slate-800 w-36 ">
+              CSS
+            </div>
+            <div className="flex items-center justify-center text-white rounded-full bg-slate-800 w-36">
               JavaScript
             </div>
             <div className="flex items-center justify-center text-white rounded-full bg-slate-800 w-36 ">
-              ReactJs
-            </div>
-            <div className="flex items-center justify-center text-white rounded-full bg-slate-800 w-36">
-              NodeJs
-            </div>
-            <div className="flex items-center justify-center text-white rounded-full bg-slate-800 w-36 ">
-              MySQL
+              React
             </div>
             <div className="flex items-center justify-center text-white rounded-full bg-slate-800 w-36 ">
               Material UI

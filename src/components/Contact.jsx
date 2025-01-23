@@ -64,7 +64,7 @@ const Contact = () => {
               Tu nombre
             </label>
             <input
-              name="nombre"
+              name="name"
               placeholder="Nombre"
               className="w-full px-3 py-2 border rounded-lg text-white bg-slate-800 focus:outline-none focus:border-blue-500"
               required

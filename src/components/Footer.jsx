@@ -6,9 +6,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-around md:items-center gap-8">
         <section>
           <h2 className="uppercase font-bold text-xl mb-4">Sandra Pol</h2>
-          <p className="">
-            Profesional SAP BTP junior en busca de crecimiento.
-          </p>
+          <p className="">Consultora SAP BTP junior</p>
         </section>
 
         <section>
@@ -35,7 +33,7 @@ const Footer = () => {
           style={{ borderTop: "0.5px solid #e5e7eb" }}
           className=" text-center text-sm mt-20 w-1/2">
           <p className="mt-4">
-            © Copyright 2024. Made by{" "}
+            © Copyright 2025. Made by{" "}
             <span className="cursor-pointer font-bold">Sandra Pol</span>
           </p>
         </section>
