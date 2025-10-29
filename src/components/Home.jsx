@@ -38,7 +38,7 @@ const Home = () => {
           </p>
         </h2>
         <p className="text-base md:text-lg text-center animate-fade-right animate-once animate-duration-[1500ms] animate-delay-[2000ms] ">
-          Consultora SAP BTP junior en el equipo de integración en Avvale.
+          Consultora SAP BTP en el equipo de integración en Avvale.
         </p>
 
         <div className="animate-flip-up animate-once animate-duration-[1500ms] animate-delay-[2500ms]">
