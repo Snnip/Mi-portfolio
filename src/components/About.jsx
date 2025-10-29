@@ -51,12 +51,15 @@ const About = () => {
         <div className="md:w-1/2 md:max-w-lg">
           <h3 className="text-2xl mb-6 uppercase">Habilidades</h3>
 
-          <div className="flex flex-wrap gap-6">
+          <div className="flex flex-wrap gap-4">
             <div className="flex items-center justify-center text-white rounded-full  bg-slate-800 w-36 ">
               SAP CI
             </div>
             <div className="flex items-center justify-center text-white rounded-full  bg-slate-800 w-36">
               SAP PO
+            </div>
+            <div className="flex items-center justify-center text-white rounded-full  bg-slate-800 w-36">
+              SAP S/4HANA
             </div>
             <div className="flex items-center justify-center text-white rounded-full  bg-slate-800 w-36 ">
               SAP BTP Cockpit
@@ -85,8 +88,8 @@ const About = () => {
           </div>
 
           <h3 className="text-2xl mt-8 mb-6 uppercase">Habilidades blandas</h3>
-          <div className="flex flex-wrap gap-6">
-            <div className="flex items-center justify-center text-white rounded-full  bg-slate-800 w-40 ">
+          <div className="flex flex-wrap gap-4">
+            <div className="flex items-center justify-center text-white rounded-full  bg-slate-800 w-40">
               Trabajo en equipo
             </div>
             <div className="flex items-center justify-center text-white rounded-full  bg-slate-800 w-40">
